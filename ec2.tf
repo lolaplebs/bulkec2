@@ -13,11 +13,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-04132f301c3e4f138"
+  ami           = "ami-022e1a32d3f742bd8"
   instance_type = "t2.micro"
 
   tags = {
-    Name = "winsys"
+    Name = "awslinx"
   }
-count = 3
+count = 4
 }
