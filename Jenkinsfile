@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('git') {
         steps {
-            sh "git pull https://github.com/vrk2299/terr.git"
+            sh 'git pull https://github.com/lolaplebs/bulkec2.git'
         }
     }
     stage('Terraform Init') {
